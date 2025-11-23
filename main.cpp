@@ -29,7 +29,8 @@ int main() {
     cin >> amount;
 
 
-    ofstream outFile("../test.txt");
+    ofstream outFile("test.txt");
+
     if (!outFile.is_open()) {
         cout << "Error: Could not create test.txt" << endl;
         return 1;
