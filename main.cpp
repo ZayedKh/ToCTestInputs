@@ -7,11 +7,6 @@
 
 using namespace std;
 
-/**
- * Generates valid test strings for the Turing Machine Coursework.
- * Format: [Sequence of Char1] [Sequence of Char2] *
- * Output: Writes directly to test.txt
- */
 int main() {
     srand(static_cast<unsigned int>(time(0)));
 
