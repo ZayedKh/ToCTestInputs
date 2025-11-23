@@ -20,3 +20,4 @@ g++ main.cpp -o gen && ./gen
 ```bash
 clang++ main.cpp -o gen && ./gen
 ```
+You can then load the file in JFLAP through the Multiple Run (Transducer) option and run the tests.
